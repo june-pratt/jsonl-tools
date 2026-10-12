@@ -1,0 +1,11 @@
+{
+  "name": "jsonl-data-viz",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "^1.2.11"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

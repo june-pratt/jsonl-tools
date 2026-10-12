@@ -1,0 +1,41 @@
+export type Product_Resource = {
+    "resource-id": string;
+    "resource-type": "ticket" | "event" | "shopping_deal" | "preferred_access" | "preferred_access_show";
+    "description": string;
+    "affliate_ids": string[];
+    "audience": string[];
+    "age_restrictions": string;
+    "category": string[]
+"company_ids": string[]
+"email_image": string
+"feature": string[]
+"genre": string[]
+"listing_image": string
+"price": string[]
+"promo_message": string
+"run_time": string
+"short_description": string
+"venue_name": string
+"venue_address": string
+"venue_city": string
+"venue_state": string
+"venue_postal_code": string
+"venue_country_code": string
+"thumbnail": string
+"title": string
+"url": string
+"partial_product_url": string
+"hide_from_search": string
+"linked_pa_url": string
+"image_px_120": string
+"image_r_3x2": string
+"image_r_5x3": string
+"image_r_15x7": string
+"search_categories": string[]
+"cbsa_name": string[]
+"product_main_category": string
+"product_vendor_name": string
+"product_family": string[]
+"cbsa_code": string[]
+"display_brand": string[]
+}
